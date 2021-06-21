@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <audio controls autoplay>
+        <source src="/assets/audio/1.ogg" type="audio/ogg">
+        <source src="/assets/audio/1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <iframe src="/assets/audio/1.mp3" allow="autoplay" id="audio"></iframe>
+    <audio src="./assets/audio/1.mp3" controls autoplay></audio>
+    <dl>
+        <dt>WHO:</dt>
+        <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quam quaerat maxime placeat facere recusandae
+            fugit. Ipsum et aut autem.
+        </dd>
+    </dl>
+
+    <ol>
+        <li>Shakib</li>
+        <li>Tamim</li>
+        <li>Mushfiq</li>
+    </ol>
+
+    <ul>
+        <li>Shakib</li>
+        <li>Tamim</li>
+        <li>Mushfiq</li>
+    </ul>
+
+    <table border="2" cellpadding="10px">
+        <thead>
+            <tr>
+                <th>SL.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Class</th>
+                <th>Roll</th>
+                <th>Comment</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total</td>
+                <td>04</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Shakib</td>
+                <td>30</td>
+                <td>Eight</td>
+                <td>07</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Tamim</td>
+                <td>18</td>
+                <td>Eight</td>
+                <td>04</td>
+                <td>Best</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Mashrafi</td>
+                <td>18</td>
+                <td>Eight</td>
+                <td>01</td>
+                <td>Also Good</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Rubel</td>
+                <td>14</td>
+                <td>Eight</td>
+                <td>08</td>
+                <td rowspan="2">Best</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Mejnah</td>
+                <td>14</td>
+                <td>Eight</td>
+                <td>08</td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+    <br><br><br>
+
+    <table border="2" cellpadding="10px">
+        <tr>
+            <th>SL.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Roll</th>
+            <th>Comment</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Shakib</td>
+            <td>30</td>
+            <td>Eight</td>
+            <td>07</td>
+            <td>Good</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Tamim</td>
+            <td>18</td>
+            <td>Eight</td>
+            <td>04</td>
+            <td>Best</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>04</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Mashrafi</td>
+            <td>18</td>
+            <td>Eight</td>
+            <td>01</td>
+            <td>Best</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Rubel</td>
+            <td>14</td>
+            <td>Eight</td>
+            <td>08</td>
+            <td>Best</td>
+        </tr>
+
+    </table>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sl</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Shakib</td>
+                <td>12</td>
+                <td>Five</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Shakib</td>
+                <td>12</td>
+                <td>Five</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Shakib</td>
+                <td>12</td>
+                <td>Five</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1400</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <br><br><br>
+
+
+
+
+    <form>
+
+        <label for="name">Name</label>
+        <input required type="text" id="name" placeholder="Type Your Name">
+        <br><br>
+        <label for="sumi">User Name</label>
+        <input required type="text" id="sumi" name="sumi" value="anis058">
+        <br><br>
+        <label for="p">Password</label>
+        <input required type="password" id="p" placeholder="Type Your Password">
+        <br><br>
+        <label for="division">Division:</label>
+        <select id="division">
+            <option selected disabled>Select Division</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chitagong">Chitagong</option>
+            <option value="Comilla">Comilla</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Rajshahi">Rajshahi</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" checked name="gender" id="gender"> <span>Male</span>
+        <input type="radio" name="gender" id="gender"> <span>Female</span>
+        <br><br>
+        <input checked type="checkbox" name="terms" id="terms"> <label for="terms">Are You Sure</span>
+            <br><br>
+            <label for="date">Birth Date:</label>
+            <input type="date" name="date" id="date">
+            <br><br>
+            <label for="pic">Profile Picture</label>
+            <input type="file" name="pic" id="pic">
+            <br><br>
+            <input type="reset" value="Reset">
+            <button type="submit">Sign Up</button>
+
+    </form>
+
+
+
+
+
+
+
+
+
+    <br><br><br>
+
+</body>
+
+</html>
