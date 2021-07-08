@@ -1,0 +1,92 @@
+/**
+    Typograpy
+*/
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans+Condensed:wght@300;700&family=Yanone+Kaffeesatz:wght@200;400&family=Zen+Loop&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+  list-style: none;  
+}
+a:hover{
+    color: red;
+}
+/* font-family: 'Festive', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Zen Loop', cursive;
+font-family: 'Zen Tokyo Zoo', cursive; */
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.m-1{
+    margin: 10px;
+}
+.m-2{
+    margin: 20px;
+}
+.m-3{
+    margin: 25px;
+}
+.m-4{
+    margin: 30px;
+}
+.m-5{
+    margin: 40px;
+}
+/*
+End Typograpy
+*/
+
+
+ul{
+    padding: 20px;
+}
+
+i{
+    cursor: pointer;
+}
+
+/* p{
+    cursor: pointer;
+} */
+
+.demo p:hover{
+    color: red;
+    background-color: blue;
+}
+
+/* p::after{
+    content: "\00A9";
+} */
+/* p::before{
+    content: "\00A9";
+} */
+
+p::selection{
+    color:yellow;
+    background-color: red;
+}
+
+
+.demo p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+.demo p::first-line{
+    color: blue;
+    font-size: 30px;
+}
+
+.test p
