@@ -48,45 +48,52 @@ body{
 End Typograpy
 */
 
-
-ul{
-    padding: 20px;
-}
-
-i{
-    cursor: pointer;
-}
-
-/* p{
-    cursor: pointer;
-} */
-
-.demo p:hover{
-    color: red;
+.demo p:not(:nth-child(6)){
+    color: lightblue;
     background-color: blue;
+    font-size: 25px;
 }
 
-/* p::after{
-    content: "\00A9";
-} */
-/* p::before{
-    content: "\00A9";
-} */
+/* 
+Static
+Relative
+Absolute
+Fixed
+sticky
+*/
 
-p::selection{
-    color:yellow;
-    background-color: red;
+.pstn{
+    width: 300px;
+    height: 300px;
+    background-color: #ff0000;
+    margin: 50px;
+    position: relative;
+    top: 50px;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: #3413c5;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.fxd{
+    width: 100px;
+    height: 100px;
+    background-color: #0ebb1d;
+    border: 5px solid #ff0000;
+    border-radius: 10px 30px 50px;
+
+    position: fixed;
+    bottom: 100px;
 }
 
 
-.demo p::first-letter{
-    font-size: 50px;
+.test{
+    position: sticky;
+    top: 0px;
     color: red;
+    background-color: #ffff00;
 }
-
-.demo p::first-line{
-    color: blue;
-    font-size: 30px;
-}
-
-.test p
