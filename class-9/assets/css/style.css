@@ -44,6 +44,15 @@ body{
 .m-5{
     margin: 40px;
 }
+
+.inline--block{
+    display: inline-block;
+}
+
+.p-fixed{
+    position: fixed;
+}
+
 /*
 End Typograpy
 */
@@ -78,17 +87,23 @@ sticky
     top: 50px;
     left: 20px;
 }
-
 .fxd{
     width: 100px;
     height: 100px;
     background-color: #0ebb1d;
     border: 5px solid #ff0000;
     border-radius: 10px 30px 50px;
-
-    position: fixed;
-    bottom: 100px;
+    top: 500px;
 }
+.fxd2{
+    width: 100px;
+    height: 100px;
+    background-color: #1104c5;
+    border: 5px solid #ff0000;
+    border-radius: 10px 30px;
+    top: 300px;
+}
+
 
 
 .test{
